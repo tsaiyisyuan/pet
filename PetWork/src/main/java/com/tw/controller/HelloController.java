@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.tw.dao.PetDao;
 import com.tw.vo.PetBean;
-
+//告訴SPRING要控管CONTROLLER
 @Controller
 public class HelloController {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
